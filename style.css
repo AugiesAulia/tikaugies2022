@@ -102,6 +102,10 @@ footer{
 	margin: 29px 1cm 1px;
 	contain: size;
 }
+.nameweb h2 a{
+	color: #fff;
+	
+}
 .menumore{
 	color: white;
 	text-align: right;
@@ -129,10 +133,11 @@ footer{
 	overflow: hidden;
 	text-indent: 3%;
 	white-space: nowrap;
+	text-align: center;
 }
 .halaman div h1{
 	color: #fff;
 }
 .halaman div img{
-	margin: 1cm;
+	margin: 3px;
 }
