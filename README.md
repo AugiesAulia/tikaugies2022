@@ -1,5 +1,5 @@
 # tikaugies2022.github.io
 
-adalah hal paling susah , maybe
+	"bagimu ini adalah pelajaran, bagiku ini adalah pekerkerjaan"
 
-masuk ke [menu.html](/menu.html)
+saya membuat nya untuk mu yang ingin melihat karyaku, dengan seluruh keryaku semua berada di sini [menu.html](/menu.html)

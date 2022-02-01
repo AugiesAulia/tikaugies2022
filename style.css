@@ -81,7 +81,7 @@ footer{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	font-variant: small-caps;
-	margin: 1cm 1px 1px;
+	margin: 2cm 1px 1px;
 }
 .profile h1:hover{
 	color: darkgray;
@@ -100,7 +100,7 @@ footer{
 	width: auto;
 	font-variant: small-caps;
 	text-align: left;
-	margin: 29px 1cm 2cm;
+	margin: 29px 1cm 1px;
 	contain: size;
 }
 .menumore{
@@ -110,7 +110,7 @@ footer{
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
-	margin: 1cm;
+	margin: 1px 1cm 1cm 1cm;
 }
 .menumore a{
 	color: white;
