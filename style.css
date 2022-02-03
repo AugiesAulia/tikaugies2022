@@ -16,7 +16,7 @@ footer{
 	right: 0;
 	background: rgb(34, 34, 34);
 	height: auto;
-	width: 100vw;
+	width: 100%;
 	font-family: "open sans";
 	padding-top: 10px;
 	color: #fff;
@@ -80,7 +80,7 @@ footer{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	font-variant: small-caps;
-	margin: 2cm 1px 1px;
+	margin: 3cm 1px 1px;
 }
 .profile h1:hover{
 	color: darkgray;
@@ -89,7 +89,7 @@ footer{
 .profile p{
 	font-size: 200%;
 	color: rgb(226, 226, 226);
-	margin: 2cm;
+	margin: 2cm 1cm 1px;
 	font-variant: small-caps;
 	text-align: center;
 }
@@ -116,7 +116,7 @@ footer{
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-start;
-	margin: 1px 1cm 1cm 1cm;
+	margin: 1px 1cm 1cm 2cm;
 }
 .menumore a{
 	color: white;
@@ -126,21 +126,66 @@ footer{
 	width: 1px;
 	margin: 30px;
 	border-width: 10cm;
+	text-decoration: none;
 }
 .menumore a:hover{
 	color: lime;
 }
 
+.halaman{
+	background: rgb(156, 160, 97);
+	padding: 13px;
+	margin: 1cm 20px 0cm ;
+}
 .halaman div{
-	content: "";
-	overflow: hidden;
-	text-indent: 3%;
+	width: 10cm;
+	height: 5cm;
 	white-space: nowrap;
-	text-align: center;
+	background: rgb(30, 51, 58);
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 2%;
+	border: 1px outset white;
 }
 .halaman div h1{
 	color: #fff;
+	position: relative;
+	top: -170px; left: 200px;
+	font-variant: small-caps;
+}
+.halaman div p{
+	color: #fff;
+	position: relative;
+	top: -170px; left: 85px;
+	font-variant: small-caps;
+	margin: 2%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 1px 110px;
 }
 .halaman div img{
-	margin: 3px;
+	margin: 6%;
+	transition: all 50ms ease-out;
+}
+.halaman div img:hover{
+	width: 44%;
+	margin: 5%;
+	justify-content: center;
+	align-content: center;
+	filter: grayscale(80%);
+	border: 3px solid wheat;
+	transition: all 50ms ease-out;
+}
+.halaman div img:active{
+	width: 38%;
+	margin: 8%;
+	justify-content: center;
+	align-content: center;
+	filter: grayscale(80%);
+	filter: blur(1px);
+	border: 7px solid wheat;
+	transition: all 70ms ease-out;
 }
