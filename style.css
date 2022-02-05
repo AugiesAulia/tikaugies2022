@@ -131,7 +131,6 @@ footer{
 .menumore a:hover{
 	color: lime;
 }
-
 .halaman{
 	background: rgb(156, 160, 97);
 	padding: 13px;
@@ -189,4 +188,82 @@ footer{
 	filter: blur(1px);
 	border: 7px solid wheat;
 	transition: all 70ms ease-out;
+}
+
+
+/* profile */
+
+.myprofile{
+	background: rgb(156, 160, 97);
+	padding: 13px;
+	margin: 1cm 20px 0cm ;
+	border: 3px outset black;
+}
+.myprofile div{
+	width: 10cm;
+	height: 5cm;
+	white-space: nowrap;
+	background: rgb(30, 51, 58);
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 2%;
+	border: 1px outset white;
+}
+.myprofile div h1{
+	color: #fff;
+	position: relative;
+	top: -170px; left: 200px;
+	font-variant: small-caps;
+}
+.myprofile div p{
+	color: #fff;
+	position: relative;
+	top: -170px; left: 85px;
+	font-variant: small-caps;
+	margin: 2%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 1px 110px;
+}
+
+
+/* Title1 */
+
+.title1{
+	background: rgb(156, 160, 97);
+	padding: 13px;
+	margin: 1cm 20px 0cm ;
+	border: 3px outset black;
+}
+.title1 div{
+	width: 10cm;
+	height: 5cm;
+	white-space: nowrap;
+	background: rgb(30, 51, 58);
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 2%;
+	border: 1px outset white;
+}
+.title1 div h1{
+	color: #fff;
+	position: relative;
+	top: -170px; left: 200px;
+	font-variant: small-caps;
+}
+.title1 div p{
+	color: #fff;
+	position: relative;
+	top: -170px; left: 85px;
+	font-variant: small-caps;
+	margin: 2%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 1px 110px;
 }
