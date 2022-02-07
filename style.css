@@ -152,6 +152,12 @@ footer{
 	box-sizing: border-box;
 	margin: 2%;
 	border: 1px outset white;
+	transition: all 200ms ease-out;	
+}
+.halaman div:hover{
+	background-color: rgb(64, 94, 57);
+	cursor: crosshair;
+	transition: all 200ms ease-in-out;
 }
 .halaman div h1{
 	color: #fff;
