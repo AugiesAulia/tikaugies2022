@@ -136,10 +136,14 @@ footer{
 	padding: 13px;
 	margin: 1cm 20px 0cm ;
 	border: 3px outset black;
+	display: flex;
+	max-width: none;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .halaman div{
-	width: 10cm;
-	height: 5cm;
+	height: 1%;
+	width: 46%;
 	white-space: nowrap;
 	background: rgb(30, 51, 58);
 	align-content: center;
@@ -151,24 +155,30 @@ footer{
 }
 .halaman div h1{
 	color: #fff;
-	position: relative;
-	top: -170px; left: 200px;
 	font-variant: small-caps;
+	display: inline-table;
+	flex-direction: row-reverse;
+	justify-content: center;
+	position: absolute;
+	margin: 2%;
 }
 .halaman div p{
-	color: #fff;
-	position: relative;
-	top: -170px; left: 85px;
+	color: white;
 	font-variant: small-caps;
-	margin: 2%;
-	text-overflow: ellipsis;
-	white-space: nowrap;
+    display: block;
+	line-height: 1rem;
+    font-weight: 500;
+    max-height: 6rem;
 	overflow: hidden;
-	padding: 1px 110px;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 17%;
+	margin-right: 2%;
 }
 .halaman div img{
 	margin: 6%;
 	transition: all 50ms ease-out;
+	float: left;
 }
 .halaman div img:hover{
 	width: 44%;
@@ -177,7 +187,7 @@ footer{
 	align-content: center;
 	filter: grayscale(80%);
 	border: 3px solid wheat;
-	transition: all 50ms ease-out;
+	transition: all 50ms ease-out;	
 }
 .halaman div img:active{
 	width: 38%;
