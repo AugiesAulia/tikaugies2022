@@ -1,4 +1,4 @@
-# tikaugies2022.github.io
+# tikaugies2022
 
 	"bagimu ini adalah pelajaran, bagiku ini adalah pekerkerjaan"
 
