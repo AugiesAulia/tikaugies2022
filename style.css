@@ -158,11 +158,14 @@ footer{
 .halaman div h1{
 	color: #fff;
 	font-variant: small-caps;
-	display: inline-table;
-	flex-direction: row-reverse;
-	justify-content: center;
-	position: absolute;
-	margin: 2%;
+	display: block;
+	margin-top: 6%;
+	line-height: 2rem;
+    font-weight: 100;
+    max-height: 6rem;
+	text-overflow: ellipsis;
+	white-space: normal;
+	margin-right: 10px;
 }
 .halaman div p{
 	color: white;
@@ -174,8 +177,8 @@ footer{
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-	margin-top: 17%;
-	margin-right: 2%;
+	margin-top: 3%;
+	margin-right: 11px;
 }
 .halaman div img{
 	margin: 6%;
