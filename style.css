@@ -6,7 +6,8 @@
 body{
 	background: #2b2b2b;
 	background-image: url(5cmpersecond.jpg);
-	background-position: center;
+	background-position: top;
+	background-repeat: repeat-y;
 	background-size: 200%;
 	background-blend-mode: soft-light;
 }
@@ -128,41 +129,68 @@ footer{
 	color: lime;
 }
 .halaman{
-	background: rgb(156, 160, 97);
+	background: rgba(36, 61, 51, 0.486);
 	padding: 13px;
 	margin: 1cm 20px 0cm ;
-	border: 3px outset black;
+	border: 4px outset black;
 	display: flex;
+	border-radius: 10px;
 	max-width: none;
 	flex-direction: row;
 	flex-wrap: wrap;
+	transition: all 200ms ease-in-out;
+}
+.halaman:hover{
+	background: rgba(62, 69, 70, 0.844);
+	transition: all 200ms ease-in-out;
+	padding: 10px;
 }
 .halaman div{
-	height: 1%;
 	width: 46%;
 	white-space: nowrap;
-	background: rgb(30, 51, 58);
+	background: rgb(55, 75, 73);
 	align-content: center;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
+	border-radius: 4px;
 	margin: 2%;
 	border: 1px outset white;
 	transition: all 200ms ease-out;	
 }
 .halaman div:hover{
-	background-color: rgb(64, 94, 57);
+	background-color: rgb(81, 94, 109);
 	cursor: crosshair;
+	border-radius: 10px;
 	transition: all 200ms ease-in-out;
 }
 .halaman div h1{
 	color: #fff;
 	font-variant: small-caps;
-	display: inline-table;
+	display: block;
 	flex-direction: row-reverse;
-	justify-content: center;
-	position: absolute;
-	margin: 2%;
+	line-height: 2rem;
+    max-height: 5rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 5%;
+	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halaman div h1:hover{
+	color: #fff;
+	font-variant: small-caps;
+	display: block;
+	flex-direction: row-reverse;
+	line-height: 2rem;
+    max-height: 10rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 5%;
+	margin-right: 1%;
+	transition: all 200ms ease-in-out;
 }
 .halaman div p{
 	color: white;
@@ -170,12 +198,27 @@ footer{
     display: block;
 	line-height: 1rem;
     font-weight: 500;
-    max-height: 6rem;
+    max-height: 5rem;
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-	margin-top: 17%;
+	margin-top: 3%;
 	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halaman div p:hover{
+	color: white;
+	font-variant: small-caps;
+    display: block;
+	line-height: 1rem;
+    font-weight: 500;
+    max-height: 10rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 3%;
+	margin-right: 2%;
+	transition: all 200ms ease-in-out;
 }
 .halaman div img{
 	margin: 6%;
