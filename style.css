@@ -138,6 +138,7 @@ footer{
 	max-width: none;
 	flex-direction: row;
 	flex-wrap: wrap;
+	color: white;
 	transition: all 200ms ease-in-out;
 }
 .halaman:hover{
