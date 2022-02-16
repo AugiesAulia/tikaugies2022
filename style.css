@@ -140,6 +140,7 @@ footer{
 	flex-wrap: wrap;
 	color: white;
 	transition: all 200ms ease-in-out;
+	text-decoration: none;
 }
 .halaman:hover{
 	background: rgba(62, 69, 70, 0.844);
@@ -205,6 +206,12 @@ footer{
     white-space: normal;
 	margin-top: 3%;
 	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halaman a{
+	color: white;
+	font-variant: small-caps;
+	text-decoration: none;
 	transition: all 200ms ease-in-out;
 }
 .halaman div p:hover{
@@ -285,44 +292,6 @@ footer{
 	padding: 1px 110px;
 }
 
-
-/* Title1 */
-
-.title1{
-	background: rgb(156, 160, 97);
-	padding: 13px;
-	margin: 1cm 20px 0cm ;
-	border: 3px outset black;
-}
-.title1 div{
-	width: 10cm;
-	height: 5cm;
-	white-space: nowrap;
-	background: rgb(30, 51, 58);
-	align-content: center;
-	justify-content: center;
-	align-items: center;
-	box-sizing: border-box;
-	margin: 2%;
-	border: 1px outset white;
-}
-.title1 div h1{
-	color: #fff;
-	position: relative;
-	top: -170px; left: 200px;
-	font-variant: small-caps;
-}
-.title1 div p{
-	color: #fff;
-	position: relative;
-	top: -170px; left: 85px;
-	font-variant: small-caps;
-	margin: 2%;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-	padding: 1px 110px;
-}
 .jendela1{
 	color: rgb(255, 255, 255);
 	text-decoration: none;
@@ -352,22 +321,4 @@ footer{
 	bottom: 20px;
 	border: rgb(216, 216, 216) outset 1px;
 	transition: all 70ms ease-out;
-}
-.comen{
-	background-color: rgb(85, 85, 85);
-	margin: 4% 4% 0%;
-	padding: 10%;
-	text-align: center;
-}
-.comen a{
-	color: white;
-	text-decoration: none;
-}
-.comen h1{
-	color: white;
-	text-decoration: none;
-}
-.comen a:hover{
-	color: rgb(178, 255, 106);
-	text-decoration: none;
 }
