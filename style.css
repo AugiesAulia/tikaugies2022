@@ -212,6 +212,8 @@ footer{
 	color: white;
 	font-variant: small-caps;
 	text-decoration: none;
+	text-align: left;
+	justify-content: left;
 	transition: all 200ms ease-in-out;
 }
 .halaman div p:hover{
@@ -321,4 +323,52 @@ footer{
 	bottom: 20px;
 	border: rgb(216, 216, 216) outset 1px;
 	transition: all 70ms ease-out;
+}
+
+/* form */
+
+form{
+	padding: 0;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form input,
+form textarea{
+	padding: 5px;
+	width: 100%;
+	border: 0px solid rgba(30, 51, 58, 0);
+	background-color: rgba(65, 92, 133, 0.22);
+	cursor: text;
+	color: azure;
+	font-family: 'Courier New', Courier, monospace;
+}
+form input:hover,
+form textarea:hover{
+	padding: 5px;
+	width: 100%;
+	border: 0px solid rgba(0, 191, 255, 0.96);
+	background-color: rgba(65, 92, 133, 0.624);
+	cursor: text;
+	color: azure;
+	font-family: 'Courier New', Courier, monospace;
+}
+textarea{
+	resize: vertical;
+}
+form button{
+	background-color: rgba(65, 92, 133, 0.22);
+	color: #fff;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border: none;
+	outline: none;
+	padding: 10px;
+	width: 3cm;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: rgba(63, 140, 255, 0.521);
 }
