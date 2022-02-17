@@ -8,13 +8,34 @@
 </head>
 <body>
     <div class="halaman">
-        <h1>Comments</h1>
+		<h1>Comments</h1>
 		<br>
-        <a href="dreysign11@gmail.com">
-			<p>
-            		dreysign11@gmail.com
-        	</p>
-		</a>
+		<br>
+		<form name="commentikaug">
+				<br>
+			<label for="name">name  :</label>
+			<input type="text" name="nama">
+				<br>
+			<label for="user@google.com">email  :</label>
+			<input type="email" name="email">
+				<br>
+			<label for="comment">comment :</label>
+			<textarea name="pesan" id="" cols="30" rows="5"></textarea>
+				<br>
+			<button type="submit">Kirim</button>
+		</form>
     </div>
+	
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbwTmz0W__NRcg9ZdJq2171FbBUmnkp4Emhoa5Q1iCDGcHKA3znua5N4bWbpbZI3lkkrNg/exec'
+		const form = document.forms['commentikaug']
+	
+		form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			.then(response => console.log('Success!', response))
+			.catch(error => console.error('Error!', error.message))
+		})
+	</script>
 </body>
 </html>
