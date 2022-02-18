@@ -372,3 +372,24 @@ form button{
 form button:hover{
 	background-color: rgba(63, 140, 255, 0.521);
 }
+.halamanc{
+	background: rgba(36, 61, 51, 0.486);
+	padding: 13px;
+	margin: 1cm 20px 0cm ;
+	border: 4px outset black;
+	border-radius: 10px;
+	max-width: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: white;
+	transition: all 200ms ease-in-out;
+	text-decoration: none;
+}
+.halamanc p{
+	text-indent: 3%;
+}
+.halamanc:hover{
+	background: rgba(62, 69, 70, 0.844);
+	transition: all 200ms ease-in-out;
+	padding: 10px;
+}
