@@ -359,19 +359,58 @@ form textarea:hover{
 textarea{
 	resize: vertical;
 }
-form button{
+.button, button{
 	background-color: rgba(65, 92, 133, 0.22);
-	color: #fff;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	border: none;
 	outline: none;
-	padding: 10px;
+	padding: 15px;
 	width: 3cm;
 	cursor: pointer;
+	transition: all 60ms ease-in-out;
+	color: rgb(255, 255, 255);
 }
-form button:hover{
+.button:hover, button:hover{
 	background-color: rgba(63, 140, 255, 0.521);
+	transition: all 200ms ease-in-out;
 }
+.button:active, button:active{
+	background-color: rgba(63, 255, 121, 0.521);
+	transition: all 50ms ease-in-out;
+}
+.overlay{
+	display: flex;
+	flex-direction: row;
+	margin: 1%;
+	width: 98%;
+	height: 6%;
+	position: fixed;
+	background-color: rgba(63, 255, 121, 0.521);
+	border: none;
+	transition: opacity 400ms;
+	visibility: hidden;
+	opacity: 0;
+	color: black;
+}
+.overlay p{
+	text-align: left;
+	align-items: center;
+	margin: 1%;
+}
+.overlay a{
+	text-align: right;
+	position: relative;
+	margin: 1%;
+	text-decoration: none;
+	color: red;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+	color: white;
+}
+  
+
+/* title halaman */
 .halamanc{
 	background: rgba(36, 61, 51, 0.486);
 	padding: 13px;
@@ -387,6 +426,19 @@ form button:hover{
 }
 .halamanc p{
 	text-indent: 3%;
+	text-decoration: none;
+	color: white;
+}
+.lop{
+	text-indent: 10%;
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+	font-size: 33px;
+	margin-left: 6%;
+}
+.lop :hover{
+	color: lime;
 }
 .halamanc:hover{
 	background: rgba(62, 69, 70, 0.844);

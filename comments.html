@@ -22,10 +22,14 @@
 			<label for="comment">comment :</label>
 			<textarea name="pesan" id="" cols="30" rows="5"></textarea>
 				<br>
-			<button type="submit">Kirim</button>
+			<button type="sumbit" href="#popup1">Kirim</button>
+			<a class="button" href="#popup1">Kirim</a>
 		</form>
     </div>
-	
+	<div id="popup1" class="overlay">
+		<p>Terima Kasih atas Komentarnya, Pesan anda sudah saya terima dan tersimpan.</p>
+		<a href="#">tutup</a>
+	</div>
 	<script>
 		const scriptURL = 'https://script.google.com/macros/s/AKfycbwTmz0W__NRcg9ZdJq2171FbBUmnkp4Emhoa5Q1iCDGcHKA3znua5N4bWbpbZI3lkkrNg/exec'
 		const form = document.forms['commentikaug']
