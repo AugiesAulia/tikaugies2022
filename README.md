@@ -1,4 +1,5 @@
 # tikaugies2022
+<link rel="icon" href="augies1808.png">
 
 	"bagimu ini adalah pelajaran, bagiku ini adalah pekerkerjaan"
 
