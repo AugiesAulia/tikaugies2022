@@ -1,5 +1,6 @@
 # tikaugies2022
-<link rel="icon" href="augies1808.png">
+
+[](augies1808.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 	"bagimu ini adalah pelajaran, bagiku ini adalah pekerkerjaan"
 
