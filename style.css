@@ -149,6 +149,7 @@ footer{
 }
 .halaman div{
 	width: 46%;
+	height: 240px;
 	white-space: nowrap;
 	background: rgb(55, 75, 73);
 	align-content: center;
@@ -231,13 +232,13 @@ footer{
 	transition: all 200ms ease-in-out;
 }
 .halaman div img{
-	margin: 6%;
+	margin: 20px;
 	transition: all 50ms ease-out;
 	float: left;
 }
 .halaman div img:hover{
-	width: 44%;
-	margin: 5%;
+	width: 220px;
+	margin: 10px;
 	justify-content: center;
 	align-content: center;
 	filter: grayscale(80%);
@@ -245,8 +246,8 @@ footer{
 	transition: all 50ms ease-out;	
 }
 .halaman div img:active{
-	width: 38%;
-	margin: 8%;
+	width: 190px;
+	margin: 25px;
 	justify-content: center;
 	align-content: center;
 	filter: grayscale(80%);
@@ -375,7 +376,7 @@ textarea{
 }
 .button:active, button:active{
 	background-color: rgba(63, 255, 121, 0.521);
-	transition: all 50ms ease-in-out;
+	transition: all 1ms ease-in-out;
 }
 .overlay{
 	display: flex;
@@ -424,11 +425,148 @@ textarea{
 	transition: all 200ms ease-in-out;
 	text-decoration: none;
 }
+.halamanc img{
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
 .halamanc p{
 	text-indent: 3%;
 	text-decoration: none;
 	color: white;
 }
+/* title cerita*/
+.halamano{
+	background: rgba(36, 61, 51, 0.486);
+	padding: 13px;
+	margin: 1cm 20px 0cm ;
+	border: 4px outset black;
+	border-radius: 10px;
+	max-width: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: white;
+	transition: all 200ms ease-in-out;
+	text-decoration: none;
+}
+.halamano p{
+	text-indent: 3%;
+	text-decoration: none;
+	color: white;
+}
+.halamano h1{
+	text-align: center;
+}
+
+.halamano div{
+	width: 46%;
+	height: 240px;
+	white-space: nowrap;
+	background: rgb(55, 75, 73);
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: 2%;
+	border: 1px outset white;
+	transition: all 200ms ease-out;	
+}
+.halamano div:hover{
+	background-color: rgb(81, 94, 109);
+	cursor: crosshair;
+	border-radius: 10px;
+	transition: all 200ms ease-in-out;
+}
+.halamano div h1{
+	color: #fff;
+	font-variant: small-caps;
+	display: block;
+	flex-direction: row-reverse;
+	line-height: 2rem;
+    max-height: 5rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 5%;
+	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halamano div h1:hover{
+	color: #fff;
+	font-variant: small-caps;
+	display: block;
+	flex-direction: row-reverse;
+	line-height: 2rem;
+    max-height: 10rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 5%;
+	margin-right: 1%;
+	transition: all 200ms ease-in-out;
+}
+.halamano div p{
+	color: white;
+	font-variant: small-caps;
+    display: block;
+	line-height: 1rem;
+    font-weight: 500;
+    max-height: 5rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 3%;
+	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halamano a{
+	color: white;
+	font-variant: small-caps;
+	text-decoration: none;
+	text-align: left;
+	justify-content: left;
+	transition: all 200ms ease-in-out;
+}
+.halamano div p:hover{
+	color: white;
+	font-variant: small-caps;
+    display: block;
+	line-height: 1rem;
+    font-weight: 500;
+    max-height: 10rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+	margin-top: 3%;
+	margin-right: 2%;
+	transition: all 200ms ease-in-out;
+}
+.halamano div img{
+	margin: 20px;
+	transition: all 50ms ease-out;
+	float: left;
+}
+.halamano div img:hover{
+	width: 220px;
+	margin: 10px;
+	justify-content: center;
+	align-content: center;
+	filter: grayscale(80%);
+	border: 3px solid wheat;
+	transition: all 50ms ease-out;	
+}
+.halamano div img:active{
+	width: 190px;
+	margin: 25px;
+	justify-content: center;
+	align-content: center;
+	filter: grayscale(80%);
+	filter: blur(1px);
+	border: 7px solid wheat;
+	transition: all 70ms ease-out;
+}
+
 .lop{
 	text-indent: 10%;
 	text-decoration: none;
