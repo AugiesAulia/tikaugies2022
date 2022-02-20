@@ -1,6 +1,6 @@
 # tikaugies2022
 
-[](augies1808.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![](augies1808.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 	"bagimu ini adalah pelajaran, bagiku ini adalah pekerkerjaan"
 
