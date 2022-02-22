@@ -19,3 +19,5 @@ saya membuat nya untuk mu yang ingin melihat karya saya, dengan seluruh kerya sa
 # Jokes
  Saya mau nambahin sesuatu yang dalam nya ngeRickRoll.
  Karna ini buat sekolah, kalau di final gak ada troll,
+
+![](augies1808.png)
