@@ -421,9 +421,13 @@ textarea{
 	max-width: none;
 	flex-direction: row;
 	flex-wrap: wrap;
-	color: white;
 	transition: all 200ms ease-in-out;
 	text-decoration: none;
+	color: white;
+}
+.halamanc p a{
+	text-decoration: dashed;
+	color: #fff;
 }
 .halamanc img{
 	justify-content: center;
