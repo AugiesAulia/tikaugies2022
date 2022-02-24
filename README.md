@@ -10,14 +10,7 @@ saya membuat nya untuk mu yang ingin melihat karya saya, dengan seluruh kerya sa
 </html>
 ```
 
-# Target
- Selesaikan sebelum Maret!!!
-
 # Informasi
  Isi nya tuh tugas sekolah saya, jadi kalau ada nama sekolah saya, itu sekolah saya, dan kalian bisa lihat nama asli saya di sana.
 
-# Jokes
- Saya mau nambahin sesuatu yang dalam nya ngeRickRoll.
- Karna ini buat sekolah, kalau di final gak ada troll,
-
-![](augies1808.png)
+![augies](augies1808.png)
