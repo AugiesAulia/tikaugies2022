@@ -570,7 +570,24 @@ textarea{
 	border: 7px solid wheat;
 	transition: all 70ms ease-out;
 }
-
+/*Penghilang page*/
+.halamanp{
+	background-color: #000;
+	width: 400px;
+	height: 200px;
+	position: static;
+	margin: 10px;
+	display: inline;
+	transition: all 200ms ease-out;	
+}
+.backo{
+	color: rgb(226, 168, 91);
+	cursor:pointer;
+}
+.backo:hover{
+	color: rgb(255, 89, 0);
+	cursor:pointer;
+}
 .lop{
 	text-indent: 10%;
 	text-decoration: none;
